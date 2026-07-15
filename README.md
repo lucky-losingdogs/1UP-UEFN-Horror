@@ -3,22 +3,38 @@
 * I worked on this project as part of the 1UP internship scheme with Staffordshire University.
 * Over 6 weeks, we utilised Unreal Engine for Fortnite (UEFN) to create this project.
 
+[button to game here]
+
 ## Project Summary
 
 * The core gameplay loop has players exploring a house and labs, exploring and solving puzzles that unlock new rooms and hidden passages.
 * Players are equipped with a flashlight, which can be used to freeze fungi folk NPCs in place. Shining the light directly at them stops their movement and renders them petrified. Certain environmental lights throughout the level can also immobilise these creatures when they step into illuminated areas.
 * Instead of being a direct threat, the fungi folk act as a persistent hindrance by interfering with puzzle elements, forcing players to adapt their puzzle-solving strategies as they navigate the environment.
 
+<details>
+<summary> Gallery </summary>
+
+[insert imgs here + promo + trailer]
+
+<img width="512" height="512" alt="UEFN PROMO 01 3" src="Gallery/Promo Renders/UEFN PROMO 01 3.png" />
+
+
+<br><br>
+  
+[Full Gallery Folder](Gallery)  
+
+</details>
+
 ## My Role & Key Skills
 
 * As a programmer, my role prioritised the use of the Verse programming language in prototyping and implementing puzzle mechanics.
 * Currently, Verse is exclusive to UEFN, allowing me to stretch my skillset by acclimating to a new language efficiently.
 
-# Highlights
+# My Highlights
 
 ## NPCs interfering with puzzles
 
-* NEEED TO COMPLETE
+* A core aspect of the fungi folk's behaviour is their mischievous behaviour. This is demonstrated in the game in numerous ways. I primarily focused on how they interact with puzzle elements, causing a nuisance for the player by interfering with the puzzle and preventing the player from completing it in a straight-forward manner.
 
 [Verse Files](AI)
 
@@ -29,7 +45,17 @@
   
 ### Video
 
-VIDEOO HERE
+* The puzzle shown in the clip requires the player to flip a switch to open a door. The main gimmick of this puzzle is that the fungus NPC interacts with the switch while the player isn't looking at it/freezing it with their flashlight. The NPC only flips the switch in order to close it, forcing the player to walk through the door backwards while keeping their light on the fungus to prevent it from flipping the switch and closing the door.
+* I did also include the option for the fungus to toggle the switch to open or close the door, however it was preferred for the fungus to only turn it off.
+* For the switch interaction in ```fungi_target_interact_switch_device```, initially I was asked to integrate the fungi's behaviour of following the player while they aren't being watched with their interaction behaviour. This meant that on a loop, the fungi would switch it's target from the player to the switch and interact with it. Unfortunately due to some inconsistency with how quickly the NPC was able to flick the switch to prevent the player from exiting, this mixed behaviour was scrapped in favour of a simpler approach. Now, the fungus stays by the switch and turns it off when not looked at; overall I believe this is an improvement, since it allows for an easier experience for the player to freeze the mushroom, since it's position when flicking the switch is a lot more consistent.
+
+[![Fungus Switch Interaction](https://img.youtube.com/vi/iA0hAQ8r4-U/0.jpg)](https://youtu.be/iA0hAQ8r4-U)
+
+* This video demonstrates the fungus NPC's interaction with a pipe puzzle, where the player must rotate pipes into the correct orientation in order to connect them up. When not lured or frozen by a light, the fungus will begin to rotate pipes, preventing the player from finishing the puzzle. The player must lure the fungus away from the pipes and trap it in a light that's triggered by a button sequence in order to progress
+* I experienced a lot of challenges when tackling the pipe interaction, the interaction behaviour itself was simple to integrate into the pipe rotation elements that had been created, however due to a lot of the decorations placed in the environment, the fungus had a high tendency to get stuck on it and be unable to follow a lure afterwards, essentially softlocking the puzzle, since it would be impossible to rotate the pipes into the correct arrangement while the fungus also rotated them. Despite removing a lot of the environmental issues causing the Navmesh to have a higher calculation density, and using Navigation Modifiers to block the fungus from entering areas that it would 100% get stuck in, there were still issues.
+* I found a good workaround was respawning the NPC every time it interacted with a pipe, since it would respawn in that location anyway and the fungus only interacts when not looked at, the respawn would be less noticeable. Of course, this came with challenges as well, unfortunately I found no way to disable the despawn VFX that would player, which was quite immersion breaking, so I had to teleport the NPC underground and run a coroutine that waited 0.1 seconds before despawning to allow enough time for the teleportation to finish.
+
+[![Fungus Pipe Interaction](https://img.youtube.com/vi/1dcJ0RJFnXw/0.jpg)](https://youtu.be/1dcJ0RJFnXw)
 
 ## Pouring gas to fill a generator
 
@@ -107,10 +133,14 @@ VIDEOO HERE
 
 ### Video:
 
-* The video shows the same Verse class functioning in a separate test world, which explains the completely different environment.
+* This clips shows the button sequence being used in practice. This puzzle has some fungi blocking the path, as they are frozen by the lights. The player must follow the cables leading from the lights to buttons which disable each light. Once the lights are all turned off, the fungi are freed and disappear from the path.
 * In the top left corner the debug logs displaying whether the pressed button is the correct one to press in the sequence, and if the sequence has been completed.
 
-[![Opening Locked Doors](https://img.youtube.com/vi/4GRfuu8Wl7s/0.jpg)](https://youtu.be/4GRfuu8Wl7s)
+[![Frozen Fungi Puzzle](https://img.youtube.com/vi/DqeiZrq4UMM/0.jpg)](https://youtu.be/DqeiZrq4UMM)
+
+* This clip also shows another demonstration of the button sequence, the player must find markings/glyphs in their surroundings which indicate the order that the buttons must be pressed in to open up a door.
+
+[![Button Sequence With Glyphs](https://img.youtube.com/vi/O3NHJJCaPqU/0.jpg)](https://youtu.be/O3NHJJCaPqU)
 
 ## Ray and Sphere Casting
 
