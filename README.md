@@ -14,10 +14,57 @@
 <details>
 <summary> Gallery </summary>
 
-[insert imgs here + promo + trailer]
+<details>
+<summary> Promotional Art </summary>
 
-<img width="512" height="512" alt="UEFN PROMO 01 3" src="Gallery/Promo Renders/UEFN PROMO 01 3.png" />
+[insert trailer here]
 
+</details>
+
+<details>
+<summary> Promotional Art </summary>
+
+<img width="512" height="512" alt="UEFN Thumbnail 3" src="Gallery/Promo Renders/UEFN Thumbnail 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 01 3" src="Gallery/Promo Renders/UEFN PROMO 01 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 02 3" src="Gallery/Promo Renders/UEFN PROMO 02 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 03 3" src="Gallery/Promo Renders/UEFN PROMO 03 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 04 3" src="Gallery/Promo Renders/UEFN PROMO 04 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 05 3" src="Gallery/Promo Renders/UEFN PROMO 05 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 06 3" src="Gallery/Promo Renders/UEFN PROMO 06 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 07 3" src="Gallery/Promo Renders/UEFN PROMO 07 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 08 3" src="Gallery/Promo Renders/UEFN PROMO 08 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 09 3" src="Gallery/Promo Renders/UEFN PROMO 09 3.png" /> <br>
+<img width="512" height="512" alt="UEFN PROMO 10 3" src="Gallery/Promo Renders/UEFN PROMO 10 3.png" /> <br>
+
+</details>
+
+<details>
+<summary>Compendium</summary>
+
+<img width="512" height="512" alt="SmallPage1 red" src="Gallery/Compendium/SmallPage1 red.jpg" /> <br>
+<img width="512" height="512" alt="Compendium01" src="Gallery/Compendium/Compendium01.png.jpg" /> <br>
+<img width="512" height="512" alt="LastMessagePage6" src="Gallery/Compendium/LastMessagePage6 copy 1.jpg" /> <br>
+
+</details>
+
+<details>
+<summary>Models</summary>
+
+<img width="512" height="512" alt="Bait01" src="Gallery/Models/Bait01.png" /> <br>
+<img width="512" height="512" alt="Bait02" src="Gallery/Models/Bait02.png" /> <br>
+<img width="512" height="512" alt="Flashlight" src="Gallery/Models/flahslight.png" /> <br>
+<img width="512" height="512" alt="Rice TurnAround" src="Gallery/Models/Rice TurnAround.png" /> <br>
+<img width="512" height="512" alt="TacoSubstaceTurnAround" src="Gallery/Models/TacoSubstaceTurnAround.png" /> <br>
+<img width="512" height="512" alt="BruceSubstaceTurnAround" src="Gallery/Models/BruceSubstaceTurnAround.png" /> <br>
+
+</details>
+
+<details>
+<summary>Floorplans</summary>
+
+<img width="512" height="512" alt="First Floor" src="Gallery/Floor Plan/First Floor.jpg" /> <br>
+
+</details>
 
 <br><br>
   
@@ -29,6 +76,96 @@
 
 * As a programmer, my role prioritised the use of the Verse programming language in prototyping and implementing puzzle mechanics.
 * Currently, Verse is exclusive to UEFN, allowing me to stretch my skillset by acclimating to a new language efficiently.
+
+<details>
+  <summary> Screenshots </summary>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="can-of-bait" src="Gallery/Screenshots/can-of-bait.png" /><br>
+    <figcaption>Bait to lure NPCs pick up.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="gas" src="Gallery/Screenshots/gas.png" /><br>
+    <figcaption>Generator that powers the gate to exit Act 1. A conditional button requires 3 gas cans.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="gas-1" src="Gallery/Screenshots/gas-1.png" /><br>
+    <figcaption>A chest containing a gas can. Must crouch under obstacles to reach.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="freezing-fungi" src="Gallery/Screenshots/freezing-fungi.png" /><br>
+    <figcaption>Fungi frozen in place blocking the path in Act 2.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="freezing-fungi-2" src="Gallery/Screenshots/freezing-fungi-2.png" /><br>
+    <figcaption>A button on a generator powering a light that freezes the fungi in place (blocking the path).</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="fungi-switch-interaction" src="Gallery/Screenshots/fungi-switch-interaction.png" /><br>
+    <figcaption>Switch interaction puzzle area.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="fungi-switch-interaction-2" src="Gallery/Screenshots/fungi-switch-interaction-2.png" /><br>
+    <figcaption>Exit trigger for switch interaction puzzle, closes the door behind the player.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="fungi-switch-interaction-3" src="Gallery/Screenshots/fungi-switch-interaction-3.png" /><br>
+    <figcaption>NPC next to switch it interacts with.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="fungi-pipe-interaction" src="Gallery/Screenshots/fungi-pipe-interaction.png" /><br>
+    <figcaption>Volume for the freezing light in puzzle 6.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="fungi-pipe-interaction-2" src="Gallery/Screenshots/fungi-pipe-interaction-2.png" /><br>
+    <figcaption>Buttons & glyphs for the button sequence in puzzle 6.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="freezing-volumes-puzzle7" src="Gallery/Screenshots/freezing-volumes-puzzle7.png" /><br>
+    <figcaption>The Verse class devices used for each freezing volume in puzzle 7.</figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+    <img width="512" height="512" alt="freezing-volumes-puzzle7-2" src="Gallery/Screenshots/freezing-volumes-puzzle7-2.png" /><br>
+    <figcaption>Freezing volumes that act as areas that the light is touching to freeze fungi that enter - in puzzle 7.</figcaption>
+  </figure>
+</p>
+  
+  
+</details>
 
 # My Highlights
 
