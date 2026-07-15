@@ -1,1 +1,0 @@
-Promo Images Created by [ChloeGratton4](https://github.com/ChloeGratton4)
