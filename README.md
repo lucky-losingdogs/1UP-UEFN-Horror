@@ -1,4 +1,4 @@
-# Suspense Escape Room
+# Fungus Among Us
 
 * I worked on this project as part of the 1UP internship scheme with Staffordshire University.
 * Over 6 weeks, we utilised Unreal Engine for Fortnite (UEFN) to create this project.
@@ -7,15 +7,15 @@
 
 ## Project Summary
 
-* The core gameplay loop has players exploring a house and labs, exploring and solving puzzles that unlock new rooms and hidden passages.
+* The core gameplay loop has players exploring a house and labs, exploring and solving puzzles that unlock new rooms and hidden passages. It's intended to be more suspense or horror oriented.
 * Players are equipped with a flashlight, which can be used to freeze fungi folk NPCs in place. Shining the light directly at them stops their movement and renders them petrified. Certain environmental lights throughout the level can also immobilise these creatures when they step into illuminated areas.
 * Instead of being a direct threat, the fungi folk act as a persistent hindrance by interfering with puzzle elements, forcing players to adapt their puzzle-solving strategies as they navigate the environment.
 
 <details>
 <summary> Gallery </summary>
-
+<p>
 <details>
-<summary> Promotional Art </summary>
+<summary> Trailers </summary>
 
 [insert trailer here]
 
@@ -42,7 +42,7 @@
 <summary>Compendium</summary>
 
 <img width="512" height="512" alt="SmallPage1 red" src="Gallery/Compendium/SmallPage1 red.jpg" /> <br>
-<img width="512" height="512" alt="Compendium01" src="Gallery/Compendium/Compendium01.png.jpg" /> <br>
+<img width="512" height="512" alt="Compendium01" src="Gallery/Compendium/Compendium01.png" /> <br>
 <img width="512" height="512" alt="LastMessagePage6" src="Gallery/Compendium/LastMessagePage6 copy 1.jpg" /> <br>
 
 </details>
@@ -66,7 +66,7 @@
 
 </details>
 
-<br><br>
+</p>
   
 [Full Gallery Folder](Gallery)  
 
