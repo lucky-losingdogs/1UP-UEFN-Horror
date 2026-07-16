@@ -1,9 +1,11 @@
+<img width="1024" height="275" alt="UEFN Thumbnail 3" src="Gallery/Banner/Banner.jpg" /> <br>
+
 # Fungus Among Us
 
 * I worked on this project as part of the 1UP internship scheme with Staffordshire University.
 * Over 6 weeks, we utilised Unreal Engine for Fortnite (UEFN) to create this project.
 
-[button to game here]
+<!--- [button to game here] --->
 
 ## Project Summary
 
@@ -11,16 +13,18 @@
 * Players are equipped with a flashlight, which can be used to freeze fungi folk NPCs in place. Shining the light directly at them stops their movement and renders them petrified. Certain environmental lights throughout the level can also immobilise these creatures when they step into illuminated areas.
 * Instead of being a direct threat, the fungi folk act as a persistent hindrance by interfering with puzzle elements, forcing players to adapt their puzzle-solving strategies as they navigate the environment.
 
+### Trailer
+
+<p>
+  
+[![Fungus Among Us Trailer](https://img.youtube.com/vi/NLR0B8FndjI/0.jpg)](https://youtu.be/NLR0B8FndjI)
+
+</p>
+
 <details>
 <summary> Gallery </summary>
 <p>
-<details>
-<summary> Trailers </summary>
-
-[insert trailer here]
-
-</details>
-
+  
 <details>
 <summary> Promotional Art </summary>
 
