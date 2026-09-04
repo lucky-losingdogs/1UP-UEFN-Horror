@@ -5,7 +5,6 @@
 * I worked on this project as part of the 1UP internship scheme with Staffordshire University.
 * Over 6 weeks, we utilised Unreal Engine for Fortnite (UEFN) to create this project.
 
-<!--- [button to game here] --->
 
 ## Project Summary
 
@@ -17,7 +16,7 @@
 
 <p>
   
-[![Fungus Among Us Trailer](https://img.youtube.com/vi/NLR0B8FndjI/0.jpg)](https://youtu.be/NLR0B8FndjI)
+[![Fungus Among Us Trailer](https://img.youtube.com/vi/cuuKOq6XmQA/0.jpg)](https://youtu.be/cuuKOq6XmQA)
 
 </p>
 
