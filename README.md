@@ -1,6 +1,6 @@
 <img width="1024" height="275" alt="UEFN Thumbnail 3" src="Gallery/Banner/Banner.jpg" /> <br>
 
-# Fungus Among Us
+# The Fungus Among Us
 
 * I worked on this project as part of the 1UP internship scheme with Staffordshire University.
 * Over 6 weeks, we utilised Unreal Engine for Fortnite (UEFN) to create this project.
